@@ -6,7 +6,7 @@ pipeline {
      }
    }
    stages {
-   stage('Backend Tess') {
+   stage('Backend Test1') {
 
     steps {
 
@@ -24,8 +24,6 @@ pipeline {
     sh 'node ./frontend/test.js'
 
     }
-
     }
-
     }
 }
